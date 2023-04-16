@@ -1,0 +1,8 @@
+local ebgIDs = {2569625809,566399244}
+local abilwarsIDs = {0000000000,000000000}
+
+if table.find(ebgIDs, game.PlaceId) then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Achronath/a/main/a"))()
+elseif table.find(abilwarsIDs, game.PlaceId) then
+    -- loadstring here for ability wars
+end
